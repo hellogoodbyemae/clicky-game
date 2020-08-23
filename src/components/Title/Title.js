@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
+import "./Title.css";
 
 class Title extends Component {
     render() {
@@ -8,8 +9,7 @@ class Title extends Component {
                 <div className="centerItem">Click an image to begin!</div>
                 <div className="rightItem">Score: {this.props.score}</div>
             </nav>
-        )
-    };
+        )};
 };
 
 export default Title;

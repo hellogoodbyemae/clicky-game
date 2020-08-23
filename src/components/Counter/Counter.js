@@ -1,21 +1,22 @@
 import React from "react";
+// import Image from "./Image";
 
 class Counter extends React.Component {
     state = {
         count: 0
     };
 
-    handleIncrement = () => {
+    handIncrement = () => {
         this.setState({ count: this.state.count + 1 });
     };
 
     render() {
-        return(
+        return (
             <div className="card text-center">
                 <div className="card-header bg-orimary text-white">
-                    <div className="card-body">
-                        <p className="card-text">Score: {this.state.count}</p>
-                    </div>
+                </div>
+                <div className="card-body">
+                    <p className="card-text">Score: {this.state.count} </p>
                 </div>
             </div>
         )

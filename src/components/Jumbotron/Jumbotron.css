@@ -1,0 +1,9 @@
+.jumbotron {
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+    background-image: url(./The_Office-logo.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 300px;
+    background-position: center;
+}
