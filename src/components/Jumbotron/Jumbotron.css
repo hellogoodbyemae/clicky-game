@@ -1,9 +1,15 @@
 .jumbotron {
     width: 100%;
-    margin-top: 65px;
+    height: 450;
+    margin-top: 115px;
     text-align: center;
-    background-image: url(./The_Office-logo.png);
+    background: #ffffff;
     background-repeat: no-repeat, repeat;
-    background-size: 300px;
+    background-size: 500px;
     background-position: center;
+}
+
+p {
+    font-size: 18px;
+    
 }
